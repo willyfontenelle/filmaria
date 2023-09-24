@@ -9,7 +9,7 @@ export default function Home() {
   useEffect(() => {
 
     async function loadFilmes(){
-      const response = await api.get('r-api/?api=filmes')
+      const response = await api.get('albums')
       //console.log(response.data);
       setFilmes(response.data);
     }

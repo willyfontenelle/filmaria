@@ -14,7 +14,7 @@ export default function Filme(){
     useEffect(()=>{
 
         async function loadFilme(){
-            const response = await api.get(`r-api/?api=filmes/${id}`);
+            const response = await api.get(`albums/${id}`);
             
             if(response.data.length === 0){
                 //Tentou acessar com um ID que não existe, navego ele para home
@@ -43,20 +43,20 @@ export default function Filme(){
         const hasFilme = filmesSalvos.some( (filmeSalvo) => filmeSalvo.id === filme.id )
         
         if(hasFilme){
-            toast.error('Você já possui esse filme salvo.');
+            toast.error('Você já possui esse disco salvo.');
             return;
             //Para a execução do código aqui
         }
 
         filmesSalvos.push(filme);
         localStorage.setItem('filmes', JSON.stringify(filmesSalvos));
-        toast.success('Filme salvo com sucesso!');
+        toast.success('Disco salvo com sucesso!');
     }
 
     if(loading){
         return(
             <div className="filme-info">
-            <h1>Carregando seu filme...</h1>
+            <h3>Carregando seu disco...</h3>
             </div>
         )
     }
@@ -65,15 +65,12 @@ export default function Filme(){
         <div className="filme-info">
             <h1> {filme.nome} </h1>
             <img src={filme.foto} alt={filme.nome} />
-
-            <h3>Sinopse</h3>
-            {filme.sinopse}
-
+            Released: {filme.description}
             <div>
-                <button onClick={ salvaFilme } >Salvar</button>
+                <button onClick={ salvaFilme }>Salvar</button>
                 <button>
-                    <a target="blank" href={`https://youtube.com/results?search_query=${filme.nome} Trailer`}>
-                        Trailer
+                    <a target="blank" href={`${filme.link}`}>
+                        Listen on Spotify
                     </a>
                 </button>
             </div>

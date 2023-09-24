@@ -8,27 +8,39 @@
 
 ul{
     padding: 0;
+    align-items: center;
+    height: 40px;
+    margin: 16px;
+    box-sizing: border-box;
 }
 
 ul li{
+    justify-content: center;
     padding: 0;
     list-style: none;
-    min-width: 600px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    margin: 0 auto;
+    width: 600px;
 }
 
 span{
-    font-size: 23px;
+    font-size: 24px;
 }
 
 button{
-    margin-left: 10px;
+    height: 20px;
 }
 
 ul li div a{
     text-decoration: none;
-    color: brown;
+    color: #2563eb;
+    align-items: center;
+    margin-right: 16px;
+
+}
+
+span{
+    font-size: 16px;
 }

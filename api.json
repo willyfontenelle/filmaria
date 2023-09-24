@@ -1,0 +1,72 @@
+[
+    {
+     "nome": "Green Day - Dookie",
+     "description": "1994",
+     "foto": "https://cyberrock.com.br/media/catalog/product/cache/acd2a155febeaa4d64f73ed66cb9661f/c/m/cm-413-bco-a.jpg",
+     "link": "https://open.spotify.com/intl-pt/album/4uG8q3GPuWHQlRbswMIRS6?si=yLLXccU2R76VisddxOHHFQ",
+     "id": "1"
+    },
+    {
+     "nome": "Millencolin - Kingwood",
+     "description": "2005",
+     "foto": "https://m.media-amazon.com/images/I/71xAppr0dRL._UF1000,1000_QL80_.jpg",
+     "link": "https://open.spotify.com/album/0GBinFgv2QoF7O2Pjm6GuV?si=Sc9U_7LERZGYZxA9BXyz9Q",
+     "id": "2"
+    },
+    {
+     "nome": "The Offspring - Americana",
+     "description": "1998",
+     "foto": "https://m.media-amazon.com/images/I/81THqPSlxzL._UF1000,1000_QL80_.jpg",
+     "link": "https://open.spotify.com/intl-pt/album/2RNTBrSO8U8XjjEj9RVvZ5?si=rY4B_OvJRuG_19mdmVOEpw",
+     "id": "3"
+    },
+    {
+     "nome": "Cake - Fashion Nugget",
+     "description": "1996",
+     "foto": "https://m.media-amazon.com/images/I/416ESB67Z7L._UF1000,1000_QL80_.jpg",
+     "link": "https://open.spotify.com/album/6kPOXxCYCdXBzEbb9dqE90?si=3YPuf7cSTPSLCON6GY1VsQ",
+     "id": "4"
+    },
+    {
+     "nome": "Sublime - 4oz to Freedom",
+     "description": "1992",
+     "foto": "https://m.media-amazon.com/images/I/71dKKd+WgNL._UF1000,1000_QL80_.jpg",
+     "link": "https://open.spotify.com/intl-pt/album/0vuwlanMPucXrYMGnOjhYL?si=xldyUvKwQHyjPtXAKJPgig",
+     "id": "5"
+    },
+    {
+     "nome": "Rufio - Perhaps, I Suppose...",
+     "description": "2001",
+     "foto": "https://i.scdn.co/image/ab67616d00001e0289d4db0cf0051a6422d0f4ef",
+     "link": "https://open.spotify.com/intl-pt/album/4ugKYcki4uFjdb6MAMLZED?si=_MEjTstLRvO5lgXiX7tdLQ",
+     "id": "6"
+    },
+    {
+     "nome": "Blink 182 - Enema of the State",
+     "description": "1999",
+     "foto": "https://i.scdn.co/image/ab67616d0000b2736da502e35a7a3e48de2b0f74",
+     "link": "https://open.spotify.com/album/652N05EcNH1a4bIlUixQE2?si=oGXoOJ2PS_aXsSkq0kS9mg",
+     "id": "7"
+    },
+    {
+     "nome": "Billie Eilish - When We All Fall Asleep, Where Do We Go?",
+     "description": "2019",
+     "foto": "https://i.scdn.co/image/ab67616d0000b27350a3147b4edd7701a876c6ce",
+     "link": "https://open.spotify.com/intl-pt/album/0S0KGZnfBGSIssfF54WSJh?si=KUE0e6PHSfGhwqojMX2HIQ",
+     "id": "8"
+    },
+    {
+     "nome": "WILLOW - <COPINGMECHANISM>",
+     "description": "2022",
+     "foto": "https://i.scdn.co/image/ab67616d0000b2731d13addda541bcf23ea27e0d",
+     "link": "https://open.spotify.com/album/0oMXn0MNLNyvB4iJPZXOuV?si=VLU7ap5tRF2BwXGeY0YRFg",
+     "id": "9"
+    },
+    {
+     "nome": "Macklemore & Ryan Lewis - This Unruly Mess I've Made",
+     "description": "2016",
+     "foto": "https://i.scdn.co/image/ab67616d0000b27351245bae78fd3afa47e90453",
+     "link": "https://open.spotify.com/intl-pt/album/2kqn09pydzvKvB3xWbAxY4?si=UGg8VL7ZQl2nLqS6tbEUjg",
+     "id": "10"
+    }
+   ]
