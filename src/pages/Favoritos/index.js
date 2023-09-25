@@ -27,7 +27,7 @@ export default function Favoritos(){
         <div id="meus-filmes">
             <h1>Meus Discos</h1>
 
-            {filmes.length === 0 && <span>Você não possui nenhum disco salvo :(</span>}
+            {filmes.length === 0 &&  <div style={{ display: 'flex', justifyContent: 'center', textAlign: 'center'}}><span>Você não possui nenhum disco salvo :(</span></div>}
 
             <ul>
                 {filmes.map((item)=>{

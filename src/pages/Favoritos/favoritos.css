@@ -34,6 +34,16 @@ span{
     font-size: 24px;
 }
 
+div aviso{
+    text-align: center;
+    align-items: center;
+}
+
+/* span aviso{
+    font-size: 24px;
+    text-align: center;
+} */
+
 button{
     height: 20px;
 }
