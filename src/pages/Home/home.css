@@ -20,7 +20,8 @@
 /*     margin: 16px; */
 /*     padding: 16px; */
     border-radius: 4px;
-    margin-bottom: 32px
+    margin-bottom: 32px;
+    margin-top: 32px;
 }
 
 .lista-filmes strong{
