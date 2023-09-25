@@ -50,5 +50,5 @@ span{
     white-space: nowrap; /* Impede a quebra de texto */
     overflow: hidden; /* Esconde o texto que não cabe */
     text-overflow: ellipsis;
-    width: calc(60%);
+    width: 70%;
 }
